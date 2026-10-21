@@ -1,1 +1,35 @@
+Q.1) Explain the difference between QA and QC
+     
+           Feature                                                   QA                                                               QC
 
+1.     Approach and Focus                It is a proactive process where it focuses on preventing     It is a reactive process where it helps to identify and rectify 
+                                         defects. The primary focus is that it's process-oriented.    the defects at the product. The primary focus is product-                                                                                                             oriented. 
+
+2.     Goal and Timeline                 Main goal is to prevent the defects from being introduced.   Here the main goal is to produce the defect free product to the 
+                                         This process carries out throughout the entire Software      user. This process is carried out the end of the SDLC, 
+                                         Development Life Cycle(SDLC) form planning to post-          especially during the Testing phase.
+                                         release.
+
+3.    Responsibilities and               It involves the entire team (Developers, QA Engineers,       Here it involves Dedicated Testing/QC team and Test automation 
+          activities                     Business Analysts, Product Owner and Manager).               engineering (if required). Activites like Inspection, Bug 
+                                         Activities like Process planning, coding standards,          fixing, Testing and user acceptance testing are present at this
+                                         design reviews and trainings included at this phase.         phase.
+
+
+
+Q.2) Explain any 5 principles of Testing
+
+-> Testing shows the presence of defects, not their absence : 
+                                                             Testing proves that bug exist by finding them. But it does not prove that the developed software is 100% bug-free. The goal is to reduce the number of defects, and not to achieve complete bug-free software.
+
+-> Exhaustive Testing is impossible : 
+                                     Testing every possible combinations of inputs, user paths and preconditions is mathematically intractable for any non-trivial application. So due to this, team rely on risk analysis and focus on testing the main areas where defects arises the most.
+
+-> Early testing saves time and money :
+                                       Identifying the defects and rectifying it at the initial stages at Requirement phase or Design phase at the SDLC helps to saves both time and money.
+
+-> Testing is Context dependent : 
+                                 For each application which is developed the testing changes drastically. For Online shopping Websites the testing phases will be completely different as compared to the Game Application it has different way of testing.
+
+-> The absence-of-errors fallacy : 
+                                  BY just finding and fixing the errors does not guarantee that the software is useful. if the system is built wrong and does not match the user's need, then finding no defects in it is irrelevent.
