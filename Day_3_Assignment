@@ -1,1 +1,89 @@
+Q1) Explain about different Levels of Testing.
 
+    Testing Levels comprises of 4 levels and they are :
+    -> Unit Testing
+    -> Integration Testing
+    -> System Testing 
+    -> Acceptance Testing 
+
+Unit Testing - 
+             -> Unit testing tests the smallest testable part of an application independently.
+             -> A unit is usually a:
+                                  Function
+                                  Method
+                                  Class
+                                  Small module
+             -> The main goal is to verify that each individual component works correctly by itself.
+
+Integration Testing - 
+             -> Integration testing verifies that two or more components work correctly together.
+             -> Even if individual units work perfectly, problems can occur when they communicate with each other.
+             -> Ex: Consider an e-commerce application:
+                   Order Service → Payment Service → Database
+                Individually:
+                             Order Service works.
+                             Payment Service works.
+                             Database works.
+
+System Testing -
+             -> System testing tests the complete, integrated application as a whole.
+             -> We want to determine whether the entire system satisfies its specified requirements.
+             -> Ex: For an e-commerce website, system testing might test the complete flow:
+                   Login
+                     ↓
+               Search Product
+                     ↓
+                Add to Cart
+                     ↓
+                  Checkout
+                     ↓
+               Enter Address
+                     ↓
+               Make Payment
+                     ↓
+             Order Confirmation
+                     ↓
+           Email/SMS Notification
+
+Acceptance Testing -
+            -> Acceptance testing determines whether the system is acceptable to the customer/business/user and is ready for release or deployment.
+            -> It is generally performed from a business/user perspective, rather than focusing on internal implementation details.4
+            -> Ex: Suppose a company requested an e-commerce system with this requirement:
+                   "A customer should be able to purchase a product using a credit card and receive an order confirmation."
+               Acceptance testing verifies that the delivered system actually satisfies this business requirement.
+
+Q2) Explain about Requirement Analysis.
+
+Requirement Analysis is the systematic process of identifying, understanding, documenting, validating, and managing the needs and expectations of
+stakeholders for a software system. Here they are categorised into 6 types and they are:
+           -> Elicitation
+           -> Analysis
+           -> Evaluationa and Synthesis 
+           -> Specification
+           -> Validation
+           -> Management
+
+Elicitation - 
+           -> Elicitation means collecting requirements from stakeholders.
+           -> The goal is to understand what the customer/user actually needs.
+
+Analysis - 
+           -> Raw information gathered during elicitation is broken down, categorized, and examined in detail to understand its feasibility and impact.
+           -> Identify gaps, ambiguities, missing information, technical constraints, and contradictory demands across different stakeholder groups.
+
+Evaluation and Synthesis -
+           -> Here, the requirements are evaluated, prioritized, and combined into a consistent set of system requirements.
+           -> Combine fragmented needs into unified models and evaluate different implementation approaches.
+
+Specification - 
+           -> Specification translates evaluated concepts into a formal, structured document that acts as an agreement between clients,
+              product managers, developers, and QA engineers.
+           -> Document requirements precisely with clear acceptance criteria.
+
+Validation - 
+           -> Validation checks whether the documented requirements are correct and acceptable to the stakeholders.
+           -> Ensure the requirements are complete, consistent, unambiguous, verifiable, and achievable.
+
+Management - 
+           -> Requirement Management deals with controlling and tracking requirements throughout the software development life cycle.
+           -> Track, version, and control changes systematically.
