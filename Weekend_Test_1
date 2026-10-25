@@ -1,1 +1,60 @@
+WEEKEND TEST 1
+
+Q1) Explain about levels of Testing.
+
+1. Unit Testing
+- Tests the smallest individual components of a software application.
+- Usually performed by developers.
+
+2. Integration Testing
+- Tests whether two or more modules/components work correctly together.
+- Focuses on interfaces and data communication between modules.
+
+3. System Testing
+- Tests the complete and integrated software system.
+- Verifies that the system meets the specified functional and non-functional requirements.
+- Performed by dedicated testing team.
+
+4. Acceptance Testing
+- Determines whether the software is acceptable to the customer or end user.
+- Performed by customers, users, or business representatives.
+
+Q2) Explain any 5 principles of Testing.
+
+-> Testing shows the presence of defects, not their absence : 
+        Testing can demonstrate that defects exist, but it cannot prove that the software is completely defect-free.
+        Example: If testing finds 10 bugs, we know defects exist. Passing all test cases does not guarantee that no other bugs remain.
+
+-> Exhaustive Testing is impossible : 
+        It is practically impossible to test every possible input, condition, and combination. 
+        Example: A field accepting numbers from 1 to 1,000,000 cannot realistically be tested with every possible value.
+
+-> Early testing saves time and money :
+        Testing should begin as early as possible in the software development lifecycle.
+
+-> Testing is Context dependent : 
+        Testing methods depend on the type of software, business domain, risks, and requirements.
+        Example: Banking software requires strong security and accuracy testing.
+
+-> The absence-of-errors fallacy : 
+        By just finding and fixing the errors does not guarantee that the software is useful. if the system is built wrong and does not match
+        the user's need, then finding no defects in it is irrelevent.
+
+Q3) Explain about Agile Methodology.
+
+Agile methodology is an iterative and incremental approach to software development in which software is developed and delivered in small, frequent increments.
+Instead of developing the entire product at once, the team divides the work into smaller pieces and delivers working software regularly.
+
+Agile development procees is mentioned below :
+        
+                    Requirement → Planning → Development → Testing → Review → Feedback → Next Iteration
+
+Advantages of Agile
+- Faster delivery of working software
+- Better customer satisfaction
+
+Disadvantages of Agile
+- Continuous customer involvement may not always be possible.
+- Requires strong communication and collaboration.
+
 
