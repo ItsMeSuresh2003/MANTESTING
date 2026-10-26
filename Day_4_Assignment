@@ -1,1 +1,14 @@
 
+TEST_CASE_ID         TEST_CASE_DESC            TEST_STEPS                   TEST_DATA             EXPECTED RESULTS
+
+TC_WEBTABLE_001      Verify clicking the       1. Navigate to the              N/A                The "Registration Form" 
+                     the Registration          2. Click on the Add                                modal opens and displays 
+                     "Add" button opens           Web Tables page.                                `all input fields.
+                     Form                         button. 
+
+TC_WEBTABLE_002      Verify adding a record    1. Click Add.
+                     with all fields filled    2. Fill in all fields: 
+                     (including optional          First Name, Last Name,
+                     Department)                  Email, Age, Salary,
+                                                  Department.
+                                               3. Click Submit.
