@@ -1,0 +1,18 @@
+test case id: tc_001
+test case description: verify registration form opens on clicking add button
+test data:
+test steps:
+  open the web table page
+  click the add button
+test expected results: registration form opens successfully and displays all required fields
+with department as optional
+
+test case id: tc_002
+test case description: verify mandatory field validation in registration form
+test data: leave all fields empty
+test steps:
+  click the add button
+  leave all mandatory fields blank
+  click the save button
+test expected results: the form is not submitted, and validation messages are displayed for all mandatory fields
+department is not required
