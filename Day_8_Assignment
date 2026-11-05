@@ -1,1 +1,46 @@
+Q 1) Explain in detail about Experienced Based Testing.
 
+Experience-based testing is a non-formal software testing approach where test cases are derived from the tester’s intuition, 
+practical background, domain expertise, and technical knowledge rather than strictly from detailed specification documents.
+
+Instead of executing pre-written test scripts step-by-step, testers leverage their understanding of how software tends to fail, 
+common developer mistakes, user behavior, and platform quirks to design and execute tests concurrently.
+
+Core Principles:
+
+Dual Activity (Simultaneous Design & Execution): 
+                                                Test design, execution, logging, and evaluation often occur in parallel rather than 
+                                                as distinct sequential phases.
+
+Tacit Knowledge Utilization: 
+                            Relies heavily on the tester's past experience with similar systems, technologies, bugs, and user workflows.
+
+Context Adaptation: 
+                   Highly dynamic; testing directions shift immediately based on anomalies, subtle system behaviors, or unexpected 
+                   outputs observed during execution.
+
+Defect-Centric Focus: 
+                     Primarily geared toward finding high-impact defects and edge cases that formal specification-based (black-box) 
+                     or structure-based (white-box) techniques typically miss.
+
+Key Techniques:
+
+1. Error Guessing
+  Error guessing anticipates where defects are most likely to lurk based on past defect history, known developer blind spots, and 
+  common technical pitfalls.
+
+2. Exploratory Testing
+   Exploratory testing is an organized, structured approach where the tester actively explores the application while dynamically 
+   designing and executing tests.
+
+3. Checklist-Based Testing
+   Testers use high-level checklists of rules, past bugs, or quality criteria to guide their testing without prescribing step-by-step 
+   Scripts.
+
+Advantages:
+
+Fast Time-to-Execution: Zero overhead spent waiting for written test suites; testing starts immediately upon build deployment.
+
+Limitations:
+
+Varying Coverage Quality: Test thoroughness is strictly bounded by the experience and mindset of the individual tester.
